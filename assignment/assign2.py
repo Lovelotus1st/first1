@@ -11,7 +11,7 @@ while (i<len(lis)):
 print(lis[sum_lis.index(max(sum_lis))])
 for y in lis[sum_lis.index(max(sum_lis))]:
     print(y)
-    
+## now by importing Library#############    
 print(max(lis, key=sum))
 for x in max(lis, key=sum):
     print (x)
@@ -21,6 +21,7 @@ for x in max(lis, key=sum):
 10
 11
 12
+Result using library
 [10, 11, 12]
 10
 11
