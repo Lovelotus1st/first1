@@ -1,6 +1,6 @@
 
-#4) Write a Python program to find the list in a list of lists whose sum of elements is
-  the highest and then print each element as a separate entity.#
+'''4) Write a Python program to find the list in a list of lists whose sum of elements is
+the highest and then print each element as a separate entity.'''
         
 lis = [[1,2,3], [4,5,6], [10,11,12], [7,8,9]]
 sum_lis=[]
@@ -26,9 +26,9 @@ for x in max(lis, key=sum):
 11
 12 -----'''
 
-#1) You already given a list of elements then you have to alter the list
+'''1) You already given a list of elements then you have to alter the list
    with user inputs and sort the list in increment order also find the mea &amp; median.
-from statistics import mean, median#
+   from statistics import mean, median'''
 
 lis =[5,4,3,2,1,0,33,22]
 i = 0
@@ -55,9 +55,9 @@ Sorted List:  [4, 12, 46, 89, 95, 784, 985, 1000]
 Mean:  376.875
 Median 92.0'''
    
-#3) Write a Python program to alter the place of every n-th value with the (n+1)th
+'''3) Write a Python program to alter the place of every n-th value with the (n+1)th
    place in a list and find the mean of each consecutive pair ,store in list and then
-   sort the mean in increasing order.#
+   sort the mean in increasing order.'''
    
 from statistics import mean, median
 lis =[0,1,2]
